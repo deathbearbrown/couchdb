@@ -32,7 +32,7 @@ function(app, FauxtonAPI, Log) {
       "_log": "showLog"
     },
 
-    selectedHeader: "Log",
+    selectedHeader: "Logs",
 
     roles: ["_admin"],
 

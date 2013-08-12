@@ -12,17 +12,13 @@
 
 define([
   "app",
-
   "api",
-
-  // Modules
-  "addons/logs/routes"
+  "addons/replication/route"
 ],
 
-function(app, FauxtonAPI, Log) {
-  Log.initialize = function() {
-    FauxtonAPI.addHeaderLink({title: "Logs", href: "#_log", icon: "fonticon-log", className: 'logs'});
+function(app, FauxtonAPI, replication) {
+	replication.initialize = function() {
+    FauxtonAPI.addHeaderLink({title: "Replication", href: "#/replication", icon: "fonticon-replicate",});
   };
-
-  return Log;
+  return replication;
 });

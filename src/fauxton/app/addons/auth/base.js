@@ -27,7 +27,7 @@ function(app, FauxtonAPI, Auth) {
     FauxtonAPI.addHeaderLink({
       title: "Auth", 
       href: "#_auth",
-      view: Auth.navLink,
+     // view: Auth.navLink,
       icon: "fonticon-user",
       bottomNav: true,
       establish: [FauxtonAPI.session.fetchUser()]

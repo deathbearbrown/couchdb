@@ -3,6 +3,7 @@
   { "name": "activetasks" },
   { "name": "config" },
   { "name": "logs" },
+  { "name": "replication" },
   { "name": "stats" },
   { "name": "contribute" },
   { "name": "auth" }
